@@ -4,7 +4,30 @@ import './Content.css';
 function Content() {
   return (
     <div class="Content">
-      <h1>Content</h1>
+        <div class="left">
+            <h2>left contant</h2>
+        </div>
+        <div class="main">
+            <h2>main contant</h2>
+            <p>content</p>
+            <p>content</p>
+            <p>content</p>
+            <p>content</p>
+            <p>content</p>
+            <p>content</p>
+            <p>content</p>
+            <p>content</p>
+            <p>content</p>
+            <p>content</p>
+            <p>content</p>
+            <p>content</p>
+            <p>content</p>
+            <p>content</p>
+            <p>content</p>
+            <p>content</p>
+            <p>content</p>
+            <p>content</p>
+        </div>
     </div>
   )
 }

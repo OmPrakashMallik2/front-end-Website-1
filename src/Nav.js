@@ -4,7 +4,10 @@ import './Nav.css';
 function Nav() {
   return (
     <div class="Nav">
-      <h1>Menu icons</h1>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Log In</a>
     </div>
   )
 }
