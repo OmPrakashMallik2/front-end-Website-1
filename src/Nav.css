@@ -1,6 +1,8 @@
 .Nav{
     background-color: slateblue;
     overflow: hidden;
+    position: sticky;
+    top: 0;
 }
 
 .Nav button {
