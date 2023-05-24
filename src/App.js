@@ -6,6 +6,10 @@ function App() {
     <div className="App">
       <h1>FRONT END PROJECT</h1>
       <p>Created By Om Prakash Mallik</p>
+      <p>Created By Om Prakash Mallik</p>
+      <p>Created By Om Prakash Mallik</p>
+      <p>Created By Om Prakash Mallik</p>
+      <p>Created By Om Prakash Mallik</p>
     </div>
   );
 }
