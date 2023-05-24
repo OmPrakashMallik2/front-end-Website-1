@@ -3,8 +3,8 @@
     overflow: hidden;
 }
 
-.Nav a {
-    color: white;
+.Nav button {
+    /* color: white; */
     float: left;
     display: block;
     text-decoration: none;

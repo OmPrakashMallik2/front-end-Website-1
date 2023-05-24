@@ -4,10 +4,10 @@ import './Nav.css';
 function Nav() {
   return (
     <div class="Nav">
-      <a>Home</a>
-      <a>About</a>
+      <button>Home</button>
+      {/* <a>About</a>
       <a>Contact Us</a>
-      <a>Log In</a>
+      <a>Log In</a> */}
     </div>
   )
 }
