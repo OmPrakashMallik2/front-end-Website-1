@@ -3,8 +3,7 @@
     background-color: gold;
 }
 img {
-    border-radius: 50%;
+    border-radius: 40%;
     width: 50%;
     margin: 40px 0;
-    /* height: 60%; */
 }
