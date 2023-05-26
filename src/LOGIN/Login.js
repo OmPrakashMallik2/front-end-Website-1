@@ -14,7 +14,8 @@ function Login() {
         <form>
           <h2>Log In </h2>
           <div class="imgcontainer">
-            <img class="avatar" src='https://w7.pngwing.com/pngs/134/220/png-transparent-person-illustration-india-login-computer-icons-emoticon-medicine-user-login-icon-miscellaneous-text-logo-thumbnail.png'/>
+            <img class="avatar" src="https://w7.pngwing.com/pngs/134/220/png-transparent-person-illustration-india-login-computer-icons-emoticon-medicine-user-login-icon-miscellaneous-text-logo-thumbnail.png" alt="User avatar" />
+            {/* <img class="avatar" src='https://w7.pngwing.com/pngs/134/220/png-transparent-person-illustration-india-login-computer-icons-emoticon-medicine-user-login-icon-miscellaneous-text-logo-thumbnail.png'/> */}
           </div>
 
           <div class="container">
