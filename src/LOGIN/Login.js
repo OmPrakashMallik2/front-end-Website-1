@@ -33,10 +33,11 @@ function Login() {
           </div>
 
           <div class="container">
-            <Link class="gohome" to="/">Home Page</Link>
+            <Link className="gohome" to="/">Home Page</Link>
           </div>
           <div class="container">
             <button type="button" class="cancelbtn">Cancel</button>
+            {/* eslint-disable-next-line */}
             <span class="pw">Forgot <a>Password?</a></span>
           </div>
         </form>
