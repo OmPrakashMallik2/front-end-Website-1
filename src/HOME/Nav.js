@@ -1,13 +1,13 @@
 import React from 'react'
 import './Nav.css';
+import { Link } from 'react-router-dom';
 
 function Nav() {
   return (
     <div class="Nav">
-      <button>Home</button>
-      {/* <a>About</a>
-      <a>Contact Us</a>
-      <a>Log In</a> */}
+      <Link class="btn" to="/">Home</Link>
+      <Link class="btn" to="/log">Log In</Link>
+      <Link class="btn" to="/developer">Developer</Link>
     </div>
   )
 }

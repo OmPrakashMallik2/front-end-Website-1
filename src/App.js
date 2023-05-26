@@ -3,16 +3,22 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Login from './LOGIN/Login';
 import Home from './HOME/Home';
+import Developer from './Developer/Developer';
+import Nav from './HOME/Nav';
+import Footer from './HOME/Footer';
+import Header from './HOME/Header';
 
 function App() {
   return (
       <div className="App">
+        <Header/>
+        <Nav/>
         <Routes>
           <Route path="/log" element={<Login/>} />
-        </Routes>
-        <Routes>
           <Route path="/" element={<Home/>} />
+          <Route path="/developer" element={<Developer/>}/>
         </Routes>
+        <Footer/>
       </div>
   );
 }

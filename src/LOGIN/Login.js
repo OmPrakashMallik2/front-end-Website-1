@@ -1,15 +1,12 @@
 import React from 'react';
 import './Login.css';
-import Header from '../HOME/Header';
-import Nav from '../HOME/Nav';
-import Footer from '../HOME/Footer';
 import { Link } from 'react-router-dom';
 
 function Login() {
   return (
     <div className='log'>
-      <Header/>
-      <Nav/>
+      {/* <Header/>
+      <Nav/> */}
       <div class="form-container">
         <form>
           <h2>Log In </h2>
@@ -33,7 +30,7 @@ function Login() {
           </div>
 
           <div class="container">
-            <Link className="gohome" to="/">Home Page</Link>
+            <Link className="gohome" to="/">HOME</Link>
           </div>
           <div class="container">
             <button type="button" class="cancelbtn">Cancel</button>
@@ -42,7 +39,7 @@ function Login() {
           </div>
         </form>
       </div>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }
