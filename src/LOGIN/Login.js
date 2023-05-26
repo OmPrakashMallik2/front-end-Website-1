@@ -5,8 +5,7 @@ import { Link } from 'react-router-dom';
 function Login() {
   return (
     <div className='log'>
-      {/* <Header/>
-      <Nav/> */}
+
       <div class="form-container">
         <form>
           <h2>Log In </h2>
@@ -39,7 +38,7 @@ function Login() {
           </div>
         </form>
       </div>
-      {/* <Footer/> */}
+
     </div>
   )
 }

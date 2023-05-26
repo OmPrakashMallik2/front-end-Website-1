@@ -1,10 +1,10 @@
 .log{
-    background-color:slategrey;
     text-align: center;
+    margin: 40px 60px;
+    border-radius: 10px;
+    padding: 20px 0;
 }
-.form-container {
-    margin: 40px 20px;
-}
+
 
 form{
     background-color: aquamarine;

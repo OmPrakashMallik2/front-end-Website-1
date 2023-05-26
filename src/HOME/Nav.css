@@ -25,4 +25,10 @@
   
 .Nav li a:hover {
     text-decoration: underline;
+    background-color: rgb(65, 65, 65);
+}
+
+.active {
+    text-decoration: underline;
+    background-color: rgb(65, 65, 65);
 }

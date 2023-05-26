@@ -6,9 +6,9 @@ function Nav() {
   return (
     <div class="Nav">
       <ul>
-        <li><Link class="btn" to="/">Home</Link></li>
+        <li class="active"><Link class="btn" to="/">Home</Link></li>
         <li><Link class="btn" to="/developer">Developer</Link></li>
-        <li><Link class="btn" to="/log">Log In</Link></li>
+        <li ><Link class="btn" to="/log">Log In</Link></li>
       </ul>
     </div>
   )

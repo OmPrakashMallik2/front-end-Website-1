@@ -1,6 +1,9 @@
 .dev{
     text-align: center;
-    background-color: gold;
+    background-color: rgb(255, 231, 93);
+    margin: 40px 60px;
+    border-radius: 10px;
+    padding: 20px 0;
 }
 img {
     border-radius: 40%;
