@@ -1,5 +1,5 @@
 .dev{
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     background-color: rgb(42, 42, 42);
     margin: 40px 60px;
@@ -7,7 +7,6 @@
     padding: 20px 0;
 }
 img {
-    border-radius: 40%;
     width: 50%;
     margin: 40px 0;
 }

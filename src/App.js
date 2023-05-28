@@ -7,6 +7,7 @@ import Developer from './Developer/Developer';
 import Nav from './HOME/Nav';
 import Footer from './HOME/Footer';
 import Header from './HOME/Header';
+// import Photoslide from './HOME/Photoslide';
 
 function App() {
   return (

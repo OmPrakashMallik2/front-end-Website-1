@@ -1,0 +1,15 @@
+
+.slide-container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .each-slide {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slide_image {
+    width: 100%;
+    height: auto;
+  }
