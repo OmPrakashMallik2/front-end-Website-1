@@ -1,13 +1,14 @@
 .Content{
+    color: white;
     display: flex;
     text-align: center;
 }
 
 .left{
-    flex: 40%;
-    background-color: lightslategrey;
+    flex: 25%;
+    background-color: rgb(0, 40, 81);
 }
 .main{
-    flex: 60%;
-    background-color: aqua;
+    flex: 75%;
+    background-color: rgb(65, 65, 65);
 }
