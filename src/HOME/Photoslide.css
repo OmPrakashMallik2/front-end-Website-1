@@ -1,7 +1,8 @@
 
 .slide-container {
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 0;
+    padding-top: 0;
   }
   
   .each-slide {
