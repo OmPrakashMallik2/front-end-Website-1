@@ -11,7 +11,7 @@ import Header from './HOME/Header';
 
 function App() {
   return (
-      <div className='bg-slate-500'>
+      <div className='bg-slate-500 font-Arial'>
         <Header/>
         <Nav/>
         <Routes>
