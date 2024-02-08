@@ -17,20 +17,20 @@ function Footer() {
         <div className='flex flex-col text-center'>
           <h1 className='text-xl py-3'>(Heading)</h1>
           <Link className='text-xl py-2'>Link1</Link>
-          <Link className='text-xl py-2'>Link1</Link>
-          <Link className='text-xl py-2'>Link1</Link>
-        </div>
-        <div className='flex flex-col '>
-          <h1 className='text-xl py-3 text-center'>(Heading)</h1>
-          <Link className='text-xl py-2'>Link1</Link>
-          <Link className='text-xl py-2'>Link1</Link>
-          <Link className='text-xl py-2'>Link1</Link>
+          <Link className='text-xl py-2'>Link2</Link>
+          <Link className='text-xl py-2'>Link3</Link>
         </div>
         <div className='flex flex-col text-center'>
           <h1 className='text-xl py-3'>(Heading)</h1>
           <Link className='text-xl py-2'>Link1</Link>
+          <Link className='text-xl py-2'>Link2</Link>
+          <Link className='text-xl py-2'>Link3</Link>
+        </div>
+        <div className='flex flex-col text-center'>
+          <h1 className='text-xl py-3'>(Heading)</h1>
           <Link className='text-xl py-2'>Link1</Link>
-          <Link className='text-xl py-2'>Link1</Link>
+          <Link className='text-xl py-2'>Link2</Link>
+          <Link className='text-xl py-2'>Link3</Link>
         </div>
       </div>
 
