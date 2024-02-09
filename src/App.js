@@ -1,15 +1,25 @@
 import React from 'react';
-import Header from './Single-Page/Header';
-import Footer from './Single-Page/Footer';
-import Home from './Single-Page/Home';
+import Footer from './About/Footer';
+import Home from './HomePage/Home';
+import { Route, Routes } from 'react-router-dom';
+import Contanct from './Contact/Contanct';
+import Work from './Work/Work';
+import Blog from './Blog/Blog';
+import About from './About/About';
+import Nav from './Nav';
 
 function App() {
   return (
     <div className=''>
-      <Header />
-      <Home />
-      <Footer />
-    </div>
+      <Nav />
+      <Routes>
+        <Route path="" element={<Home />} />
+        <Route path="work" element={< Work />} />
+        <Route path="blog" element={< Blog />} />
+        <Route path="about" element={<About />} />
+        <Route path="contact" element={<Contanct />} />
+      </Routes>
+    </div >
   );
 }
 

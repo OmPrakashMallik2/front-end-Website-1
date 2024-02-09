@@ -7,7 +7,7 @@ function Home() {
       <div className='w-1/2'>
         <img
           className='w-full sticky top-0 h-screen object-cover'
-          src='https://i.pinimg.com/564x/56/f2/8e/56f28ecc44f9f7cf9565c1d7679357e1.jpg'
+          src='https://i.pinimg.com/564x/4c/e1/8f/4ce18f9e7a997392bb0fd0297d4d3a89.jpg'
           alt='profile-pic'
         />
       </div>
